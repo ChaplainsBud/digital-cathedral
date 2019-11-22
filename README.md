@@ -10,6 +10,9 @@ uphold human rights by facilitating secure connections:
 1. Geolocation identifying members, catered texts
 to phone.
 2. Geolocation identifying non-members.
+=> identifying those who strive to enter
+without identification. Potential threats.
+=> Database for local police, national directory. 
 3. Mapping location of assembly to members.
 4. Chatrooms
 5. Forums
