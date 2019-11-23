@@ -75,11 +75,14 @@ li:last-child {
   flex-grow: 1;
 }
 
+button {
+  background-color: inherit;
+}
+
 .pic-holder {
   display: flex;
   flex-direction: row;
 }
-
 .container > main {
   background-color: darkblue;
   height: 40vh;
