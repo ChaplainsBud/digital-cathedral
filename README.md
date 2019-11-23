@@ -11,6 +11,9 @@ uphold human rights by facilitating secure connections:
 to phone.
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
 2. Geolocation identifying non-members.
+=> identifying those who strive to enter
+without identification. Potential threats.
+=> Database for local police, national directory. 
 3. Mapping location of assembly to members.
 https://developers.google.com/maps/documentation
 4. Chatrooms
