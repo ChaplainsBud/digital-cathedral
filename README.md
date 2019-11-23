@@ -38,5 +38,9 @@ https://yalantis.com/blog/looking-dating-apps-developers-perspective-based-exper
 the arts and humanities, or the humanities and arts
 with STEM. New extreme and old extremes overcome.
 14. Resources for business, money management.
+-job postings, required skills
+-training resources, MOOCS, certification
+-discounts for food, clothing, and shelter
+-medical discounts
 15. Hygiene and Health.
 16. Social sciences: psychology, sociology, economics, and political science.

@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image:url(./img/rcc.jpg); */
+  background-position: center;
+  color: black;
+  font-family: 'Lobster', 'sans-serif';
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header header header"
+                       "main main main"
+                       "aside aside aside"
+                       /* "section section section" */
+                       "footer footer footer";
+  grid-gap: 5px;
+}
+
+.container > header {
+  /* background-color: orange; */
+  height: 20vh;
+  grid-area: header;
+  padding: 20px;
+  background-color: gray;
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+  color: purple;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+ul li {
+  margin-top: 5px;
+  margin-left: 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover {
+  cursor: alias;
+  color: gold;
+}
+
+li:first-child {
+  /* background-color: gray; */
+  flex-grow: 3;
+}
+
+li:nth-of-type(even) {
+  /* background-color: yellow; */
+  flex-grow: 1;
+}
+
+li:last-child {
+  /* background-color: purple; */
+  flex-grow: 1;
+}
+
+.pic-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.container > main {
+  background-color: darkblue;
+  height: 40vh;
+  grid-area: main;
+  padding: 20px;
+}
+
+main img {
+  height: 200px;
+  width: 200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 15px;
+  /* display: block; */
+
+}
+
+.container > aside {
+  background-color: gray;
+  height: 20vh;
+  grid-area: aside;
+}
+
+.container > section {
+  background-color: skyblue;
+  height: 20vh;
+  grid-area: section;
+}
+
+footer {
+  background-color: darkblue;
+  height: 20vh;
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer img {
+  height: 20%;
+  width: 20%;
+}
+
+p:last-child {
+
+}
+
+aside {
+  padding: 10px;
+}
